@@ -1,4 +1,4 @@
 {
-    "builds" : [{ "src" : "./app.js", "user" : "@vercel/ndoe" }],
-    "routes" : [{ "src" : "/", "dest" : "/" }]
+    "builds" : [{ "src" : "/app.js", "user" : "@vercel/ndoe" }],
+    "routes" : [{ "src" : "/(.*)", "dest" : "/" }]
 }
